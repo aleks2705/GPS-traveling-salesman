@@ -1,1 +1,7 @@
 # GPS-traveling-salesman
+
+This project has been done during the second year technological training. 
+
+The traveling salesman problem is one of the most famous problems in computer science. It is both a very simple problem in its formulation and a problem which can sometimes be very complex in its resolution. It is also a reference problem which allows different algorithms to be compared with each other. This problem is at the heart of GPS route calculations or in the reservation algorithms of transport companies (air, rail, etc.).
+This optimization problem consists of determining the best route between a list of stops, often cities to create the most efficient route plan for a traveling salesman who must go to each location. The goal is to visit once (and only once) all the cities with the best tour which may be the quickest, least expensive, etc. With the importance of climate change, this problem is experiencing a second youth, for example by adding the constraint of limiting Greenhouse Gas (GHG) emissions or quite simply of taking into account different travel speeds or human constraints (rest , comfort, supply and demand etc.). We therefore find a problem which requires a method of resolution by a program. It is in fact not possible to test all the combinations one by one, especially if we are looking for optimization according to several criteria (time, cost, carbon emissions, etc.).
+The objective was to write code with Python to offer the shortest route between 30 French cities.
